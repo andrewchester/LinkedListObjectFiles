@@ -1,29 +1,3 @@
-# LinkedListObjectFiles
-
-# Functions In LinkedList:
-
-LinkedList(), takes no arguments, sets length, first, and last to 0
-
-Overloaded << operator so when you do cout << list << endl, it will print out the entire list]
-
-at(), will return a pointer to the student that the node holds
-
-Overloaded [] operator, when you do list[0] it will return a student pointer to the student held by node 0
-
-insert(int index, Student* student), inserts the student pointer passed into the index in value
-
-remove(int index), removes the node at the passed index
-
-deleteStudent(Student* s) & deleteStudent(char* name), you can pass either a char* or Student*, it will find all instances of it in the list and delete it
-
-append(Student* s), adds a student to the end
-
-size(), returns the size of the linked list
-
-begin(), returns a pointer to the first node in the list
-
-end(), returns a pointer to the last node in the list
-
 #Functions in Node
 
 Node(Student*, Node* previous, Node* next), takes a student, the node behind it and the node after it

@@ -1,4 +1,4 @@
-#Functions in Node
+# Functions in Node
 
 Node(Student*, Node* previous, Node* next), takes a student, the node behind it and the node after it
 
