@@ -10,7 +10,7 @@ class Node {
   Node* previous; //Previous node in list, 0 if it's the beginning of list
 
  public:
-  Node(Student*, Node* previous, Node* next);
+  Node(Student* s = 0, Node* previous = 0, Node* next = 0);
   ~Node();
   
   //Getters
